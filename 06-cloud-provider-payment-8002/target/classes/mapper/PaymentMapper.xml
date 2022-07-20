@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--映射Dao接口-->
+<mapper namespace="com.maizi.demo.mapper.PaymentMapper">
+    <!--结果集映射-->
+    <resultMap id="BaseResultMap" type="com.maizi.demo.entities.Payment">
+        <!--字段 映射-->
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <!--字段 映射-->
+        <result property="serial" column="serial" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id
+        ,serial
+    </sql>
+
+    <!--id 方法名-->
+    <insert id="insertAll">
+        insert into payment
+            (id, serial)
+        values (#{id,jdbcType=NUMERIC}, #{serial,jdbcType=VARCHAR})
+
+    </insert>
+
+
+    <select id="getById" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from payment
+        where
+        id = #{id,jdbcType=NUMERIC}
+    </select>
+</mapper>
