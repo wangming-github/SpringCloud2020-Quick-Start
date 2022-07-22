@@ -19,6 +19,11 @@
         <module>04-cloud-eureka-server-7001</module>
         <module>05-cloud-eureka-server-7002</module>
         <module>06-cloud-provider-payment-8002</module>
+        <module>07-cloud-provider-zookeeper-payment-8004</module>
+        <module>08-cloud-consumer-zookeeper-order-80</module>
+        <module>09-cloud-provider-consul-payment-8006</module>
+        <module>10-cloud-consumer-consul-order-80</module>
+        <module>11-cloud-consumer-feign-order-80</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -114,6 +119,12 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

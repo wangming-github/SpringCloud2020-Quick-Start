@@ -1,0 +1,9 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: 07-cloud-provider-payment-8004
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181 #zkServer.sh  status 会提示
