@@ -24,6 +24,20 @@
         <module>09-cloud-provider-consul-payment-8006</module>
         <module>10-cloud-consumer-consul-order-80</module>
         <module>11-cloud-consumer-feign-order-80</module>
+        <module>12-cloud-provider-hystrix-payment-8001</module>
+        <module>13-cloud-consumer-feign-hystrix-order-80</module>
+        <module>14-cloud-consumer-hystrix-dashboard-9001</module>
+        <module>15-cloud-gateway-gateway-9527</module>
+        <module>16-cloud-config-center-3344</module>
+        <module>17-cloud-config-client-3355</module>
+        <module>18-cloud-config-client-3366</module>
+        <module>19-cloud-stream-rabbitmq-provider-8801</module>
+        <module>20-cloud-stream-rabbitmq-consumer-8802</module>
+        <module>21-cloud-stream-rabbitmq-consumer-8803</module>
+        <module>22-cloudalibaba-provider-payment-9001</module>
+        <module>23-cloudalibaba-provider-payment-9002</module>
+        <module>24-cloudalibaba-consumer-nacos-order-83</module>
+        <module>25-cloudalibaba-config-nacos-client-3377</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

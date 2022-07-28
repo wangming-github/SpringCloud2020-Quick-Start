@@ -29,6 +29,36 @@
     <file url="file://$PROJECT_DIR$/10-cloud-consumer-consul-order-80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11-cloud-consumer-feign-order-80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/11-cloud-consumer-feign-order-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-cloud-provider-hystrix-payment-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/12-cloud-provider-hystrix-payment-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-cloud-consumer-feign-hystrix-order-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/13-cloud-consumer-feign-hystrix-order-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-cloud-consumer-hystrix-dashboard-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/14-cloud-consumer-hystrix-dashboard-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-cloud-gateway-gateway-9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-cloud-gateway-gateway-9527/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-cloud-config-center-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-cloud-config-center-3344/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-cloud-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17-cloud-config-client-3355/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-cloud-config-client-3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/18-cloud-config-client-3366/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-cloud-stream-rabbitmq-provider-8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/19-cloud-stream-rabbitmq-provider-8801/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-cloud-stream-rabbitmq-consumer-8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/20-cloud-stream-rabbitmq-consumer-8802/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21-cloud-stream-rabbitmq-consumer-8803/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/21-cloud-stream-rabbitmq-consumer-8803/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22-cloudalibaba-provider-payment-9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/22-cloudalibaba-provider-payment-9001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/23-cloudalibaba-provider-payment-9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/23-cloudalibaba-provider-payment-9002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/24-cloudalibaba-consumer-nacos-order-83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/24-cloudalibaba-consumer-nacos-order-83/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/25-cloudalibaba-config-nacos-client-3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/25-cloudalibaba-config-nacos-client-3377/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

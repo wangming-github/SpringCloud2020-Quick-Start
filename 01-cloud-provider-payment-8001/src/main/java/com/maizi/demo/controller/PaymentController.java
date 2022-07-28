@@ -26,17 +26,23 @@ public class PaymentController {
     @Resource
     PaymentService paymentService;
 
+
+    @Resource
+    private DiscoveryClient discoveryClient;
+
+
+
     @Value("${server.port}")
-    private String serverPost;
+    private String serverPort;
 
     @PostMapping(value = "/payment/save")
     public R<Payment> create(@RequestBody Payment payment) {
         log.info("======>Payment : " + payment);
 
         if (paymentService.save(payment)) {
-            return new R(200, "成功！" + serverPost, true);
+            return new R(200, "成功！" + serverPort, true);
         } else {
-            return new R(444, "失败！" + serverPost, false);
+            return new R(444, "失败！" + serverPort, false);
         }
     }
 
@@ -46,15 +52,11 @@ public class PaymentController {
         final Payment payment = paymentService.getById(id);
         log.info("======>Payment find: " + payment);
         if (payment != null) {
-            return new R(200, "成功！本地调用实例端口：" + serverPost, payment);
+            return new R(200, "成功！本地调用实例端口：" + serverPort, payment);
         } else {
-            return new R(444, "失败！" + serverPost);
+            return new R(444, "失败！" + serverPort);
         }
     }
-
-
-    @Resource
-    private DiscoveryClient discoveryClient;
 
 
     @GetMapping(value = "/payment/discovery")
@@ -71,9 +73,6 @@ public class PaymentController {
         return this.discoveryClient;
     }
 
-
-    @Value("${server.port}")
-    private String serverPort;
 
     @GetMapping(value = "/payment/lb")
     public String getPaymentLB() {

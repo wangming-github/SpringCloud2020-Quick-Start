@@ -1,0 +1,30 @@
+# nacos配置
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos服务注册中心地址
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml #去8848上找 指定yaml格式的配置
+        group: DEV_GROUP
+        namespace: 4fe3ed62-1e72-4205-b689-9f6c02f3d77c
+  datasource:
+    platform: mysql
+  db:
+    num: 1
+    url.0: jdbc:mysql://localhost:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+    user: root
+    password: admin123
+
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# nacos-config-client-dev.yaml
+
+
+
+

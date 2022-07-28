@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/01-cloud-provider-payment:8001/pom.xml" />
         <option value="$PROJECT_DIR$/02-cloud-consumer-order80/pom.xml" />
         <option value="$PROJECT_DIR$/09-cloud-consumer-consul-order-8006/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
       </set>
     </option>
   </component>
