@@ -1,9 +1,0 @@
-server:
-  port: 80
-
-spring:
-  application:
-    name: 08-cloud-consumerZK-order-80
-  cloud:
-    zookeeper:
-      connect-string: localhost:2181 #zkServer.sh  status 会提示
