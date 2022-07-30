@@ -7,7 +7,8 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: localhost:1111 #Nginx 负载均衡
+#        server-addr: localhost:1111 #Nginx 负载均衡 集群配置 需要启动 3333 4444 5555
+        server-addr: localhost:8848 #单机版本启动
 
 management:
   endpoints:

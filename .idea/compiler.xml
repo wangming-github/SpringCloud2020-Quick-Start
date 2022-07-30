@@ -15,9 +15,12 @@
         <module name="24-cloudalibaba-consumer-nacos-order-83" />
         <module name="22-cloudalibaba-provider-payment-9001" />
         <module name="05-cloud-eureka-server-7002" />
+        <module name="29-cloudalibaba-consumer-nacos-order-84" />
         <module name="08-cloud-consumer-zookeeper-order-80" />
+        <module name="26-cloudalibaba-sentinel-service-8401" />
         <module name="02-cloud-consumer-order-80" />
         <module name="19-cloud-stream-rabbitmq-provider-8801" />
+        <module name="27-cloudalibaba-provider-payment-9003" />
         <module name="20-cloud-stream-rabbitmq-consumer-8802" />
         <module name="14-cloud-consumer-hystrix-dashboard-9001" />
         <module name="21-cloud-stream-rabbitmq-consumer-8803" />
@@ -33,6 +36,7 @@
         <module name="13-cloud-consumer-feign-hystrix-order-80" />
         <module name="07-cloud-provider-zookeeper-payment-8004" />
         <module name="15-cloud-gateway-gateway-9527" />
+        <module name="28-cloudalibaba-provider-payment-9004" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
