@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>09-cloud-providerCS-payment-8006</artifactId>
+    <artifactId>09-cloud-provider-consul-payment-8006</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

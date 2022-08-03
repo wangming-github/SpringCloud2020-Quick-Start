@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>13-cloud-consumer-hystrix-order-80</artifactId>
+    <artifactId>13-cloud-consumer-feign-hystrix-order-80</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

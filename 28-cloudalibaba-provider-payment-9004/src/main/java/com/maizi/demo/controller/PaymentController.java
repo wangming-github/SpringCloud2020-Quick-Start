@@ -35,7 +35,7 @@ public class PaymentController {
     public Payment paymentSQL(@PathVariable("id") Long id) {
         final Payment payment = hashMap.get(id);
         log.info("远程调用支付模块,端口:{}/paymentSQL/{}  返回:{}", serverPort, id, payment);
-        //故意添加异常 当id>3就触发
+        //故意添加异常 当id
         if (payment == null) {
             throw new NullPointerException("未能找到id为" + id + "的数据");
         }
