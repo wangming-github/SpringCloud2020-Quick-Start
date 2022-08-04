@@ -45,6 +45,7 @@
         <module>30-cloudalibaba-seata-order-service-2001</module>
         <module>31-cloudalibaba-seata-storage-service-2002</module>
         <module>32-cloudalibaba-seata-account-service-2003</module>
+        <module>demo-33-cloudalibaba-seata-v1.5.2</module>
 
     </modules>
 
